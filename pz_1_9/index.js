@@ -1,6 +1,21 @@
+task1();
 function task1(){
-    for (let i = 0; i <=100; i++) {
-            console.log(i);
+    let num = 0;
+
+    while (num <= 100) {
+        let isPrime = true;
+
+        for (let i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i === 0) {
+                isPrime = false;
+                break;
+            }
+        }
+
+        if (isPrime) {
+            console.log(num);
+        }
+        num++;
     }
 }
 

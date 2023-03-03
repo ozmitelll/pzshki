@@ -1,3 +1,4 @@
+task4()
 function task1() {
     const validator = require('validator');
 
@@ -64,4 +65,3 @@ function task4(){
     });
 
 }
-task4()

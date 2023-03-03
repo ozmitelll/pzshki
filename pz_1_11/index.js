@@ -25,7 +25,7 @@ function task3(n){
 }
 
 function Calculate(x,y,z){
-    return (x+y+z)/2;
+    return (x+y+z)/3;
 }
 function isDivisible(n,x,y) {
     return (n % x === 0) && (n % y === 0);
